@@ -4,10 +4,15 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var dotenv = require("dotenv");
+var env = dotenv.config({path: "./.env"}).parsed;
 
+var port = 3000;
 var app = express();
+
+var indexRouter = require('./routes/index');
+var textRouter = require('./routes/text');
+var imageRouter = require('./routes/image');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -20,7 +25,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/text', textRouter);
+app.use('/image', imageRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -39,3 +45,7 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+app.listen(port, () => {
+  console.log(`Open in Browser -> http://localhost:${port}`);
+});
