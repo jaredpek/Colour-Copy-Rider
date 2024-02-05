@@ -8,7 +8,7 @@
 Copywriting is a profession that can be demanding and stressful (Zahra, 2023) and color blindness can affect the functioning of copywriters. With colour blindness affecting part of the world's population (Ananya, 2023), this would likely affect the ability of the affected individuals to take on roles that involve copywriting. As such, we have engineered a web app to serve as an assistive technology to help these affected indivduals gain employment.
 
 ## Features
-With the use of image processing artificial intelligence (AI) , our web application is able to accurately detect the colour of an item and then generate an enticing product description for copywriting purposes using text generation AI.
+With the use of image processing artificial intelligence (AI) , our web application is able to accurately detect the colour of an item and then generate an enticing product description for copywriting purposes using text generation AI. Our team has carefully infused these features into the web application so that our users can effortlessly gain employment in spite of the difficulties that they face.
 
 ## Team Members
 1. Jared Pek
@@ -16,6 +16,11 @@ With the use of image processing artificial intelligence (AI) , our web applicat
 3. Lim Yong Kang
 4. Barry Ng
 
+
+## What we have learnt from this project
+During the course of this project, our team has gained a vast amount of knowledge and valuable experiences such as problem-solving, ml5.js, react development, and using generative AI. We also learnt that technology when used wisely, can empower people and help better their function in their daily activities.
+
+We also gained experience on collaborating remotely and via github.
 
 
 ## References
