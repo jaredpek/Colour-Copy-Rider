@@ -3,7 +3,7 @@
 ##### Made For NTU's TechFest Hackathon 2024
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
-![](https://github.com/jaredpek/TechFest-YKKYBYJP/assets/ColorCopyRider.gif) 
+![](https://github.com/jaredpek/TechFest-YKKYBYJP/blob/main/assets/ColorCopyRider.gif) 
 ## Problem
 Copywriting is a profession that can be demanding and stressful (Zahra, 2023) and color blindness can affect the functioning of copywriters. With colour blindness affecting part of the world's population (Ananya, 2023), this would likely affect the ability of the affected individuals to take on roles that involve copywriting. As such, we have engineered a web app to serve as an assistive technology to help these affected indivduals gain employment.
 
