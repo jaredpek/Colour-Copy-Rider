@@ -30,8 +30,8 @@ const HomePage = () =>{
         }
     },[result])
 
-    return <div className="min-w-full w-full min-h-screen bg-stone-800 flex flex-1 justify-center items-center">
-        <div className="grid grid-rows-3 grid-flow-col gap-1 p-10">
+    return <div className="min-w-full w-full min-h-full h-full bg-stone-800 flex flex-1 justify-center items-center">
+        <div className="grid grid-rows-2 grid-flow-col gap-1 p-5">
             <div className="flex flex-1 flex-col justify-center">
         <h1 className="text-amber-200 text-7xl font-bold w-full text-center">Welcome To ColorCopyRider</h1>
         <p className=" w-full text-center">Assistive Living App for Copywriters with visual impairment</p>
