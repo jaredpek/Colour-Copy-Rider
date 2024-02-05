@@ -14,7 +14,7 @@ With the use of image processing artificial intelligence (AI) , our web applicat
 1. Jared Pek
 2. Tan Ke Yuan
 3. Lim Yong Kang
-4. Barry Tan
+4. Barry Ng
 
 
 
