@@ -41,6 +41,9 @@ const HomePage = () =>{
         <h1 className="text-amber-200 text-7xl font-bold w-full text-center">Welcome To ColorCopyRider</h1>
         <p className=" w-full text-center">Assistive Living App for Copywriters with visual impairment</p>
         {/* <Webcam/> */}
+        <div className="text-center">
+            Display any product, then hover your mouse cursor over it!
+        </div>
         <div id="webcam-section" className="w-fit m-auto"></div>
         </div>
         <div className="w-full">
